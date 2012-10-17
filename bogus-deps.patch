@@ -1,0 +1,34 @@
+--- affy/affy/DESCRIPTION.orig	2012-10-17 14:49:59.956583161 +0200
++++ affy/affy/DESCRIPTION	2012-10-17 14:51:23.219913557 +0200
+@@ -12,9 +12,8 @@
+         Christopher Workman <workman@cbs.dtu.dk>, John Zhang
+ Maintainer: Rafael A. Irizarry <rafa@jhu.edu>
+ Depends: R (>= 2.8.0), BiocGenerics (>= 0.1.12), Biobase (>= 2.5.5)
+-Imports: BiocGenerics, Biobase, affyio (>= 1.13.3), BiocInstaller,
+-        graphics, grDevices, methods, preprocessCore, stats, utils,
+-        zlibbioc
++Imports: BiocGenerics, Biobase, affyio (>= 1.13.3),
++        graphics, grDevices, methods, preprocessCore, stats, utils
+ Suggests: tkWidgets (>= 1.19.0), affydata, widgetTools
+ LinkingTo: preprocessCore
+ Description: The package contains functions for exploratory
+--- affy/affy/NAMESPACE.orig	2012-10-02 00:51:49.000000000 +0200
++++ affy/affy/NAMESPACE	2012-10-17 14:50:58.656581090 +0200
+@@ -4,8 +4,6 @@
+ 
+ import(affyio)
+ 
+-import(zlibbioc)
+-
+ importClassesFrom(Biobase, AnnotatedDataFrame, AssayData, eSet, MIAME,
+                   Versioned, VersionedBiobase, Versions)
+ 
+@@ -28,8 +26,6 @@
+            assayDataNew, multiassign, read.AnnotatedDataFrame,
+            read.MIAME, testBioCConnection)
+ 
+-importFrom(BiocInstaller, biocinstallRepos)
+-
+ importFrom(graphics, abline, axis, barplot, frame, hist,
+            lines, matplot, mtext, pairs, par, plot, points,
+            smoothScatter, text)
