@@ -2,14 +2,14 @@
 
 Summary:	Methods for Affymetrix Oligonucleotide Arrays
 Name:		R-%{packname}
-Version:	1.36.0
+Version:	1.40.0
 Release:	1
 License:	LGPL v2+
 Group:		Applications/Engineering
 Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	92dbab4b79c79f07c2db8ed3a40b9a8f
+# Source0-md5:	b58ebcb0117b685130425e8840088845
 Patch0:		bogus-deps.patch
-URL:		http://bioconductor.org/packages/release/bioc/html/%{packname}.html
+URL:		http://bioconductor.org/packages/release/bioc/html/affy.html
 BuildRequires:	R
 BuildRequires:	R-Biobase
 BuildRequires:	R-BiocGenerics
