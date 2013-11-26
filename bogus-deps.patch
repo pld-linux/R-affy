@@ -1,14 +1,13 @@
 --- affy/affy/DESCRIPTION.orig	2012-10-17 14:49:59.956583161 +0200
 +++ affy/affy/DESCRIPTION	2012-10-17 14:51:23.219913557 +0200
-@@ -12,9 +12,8 @@
+@@ -12,8 +12,8 @@
          Christopher Workman <workman@cbs.dtu.dk>, John Zhang
  Maintainer: Rafael A. Irizarry <rafa@jhu.edu>
  Depends: R (>= 2.8.0), BiocGenerics (>= 0.1.12), Biobase (>= 2.5.5)
--Imports: BiocGenerics, Biobase, affyio (>= 1.13.3), BiocInstaller,
--        graphics, grDevices, methods, preprocessCore, stats, utils,
--        zlibbioc
-+Imports: BiocGenerics, Biobase, affyio (>= 1.13.3),
-+        graphics, grDevices, methods, preprocessCore, stats, utils
+-Imports: affyio (>= 1.13.3), BiocInstaller, graphics, grDevices,
+-        methods, preprocessCore, stats, utils, zlibbioc
++Imports: affyio (>= 1.13.3), graphics, grDevices,
++        methods, preprocessCore, stats, utils
  Suggests: tkWidgets (>= 1.19.0), affydata, widgetTools
  LinkingTo: preprocessCore
  Description: The package contains functions for exploratory
