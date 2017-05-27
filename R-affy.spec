@@ -3,7 +3,7 @@
 Summary:	Methods for Affymetrix Oligonucleotide Arrays
 Name:		R-%{packname}
 Version:	1.40.0
-Release:	2
+Release:	3
 License:	LGPL v2+
 Group:		Applications/Engineering
 Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
