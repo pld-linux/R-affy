@@ -35,7 +35,7 @@ The dependancy to tkWidgets only concerns few convenience functions.
 
 %prep
 %setup -q -c -n %{packname}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 
